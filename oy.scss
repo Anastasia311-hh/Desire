@@ -1,0 +1,19 @@
+.container{max-width: 1140px; margin: 0 auto; padding: 0 15px;}
+.about{height: 500px; margin-top: 250px;
+    &__prev{
+        background-image: url(about.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        padding: 160px 0;
+        text-align: center;
+        margin-top: -53px;
+    }
+    &__prev-title{
+        color: #363838; ;
+        font-size: 60px;
+        line-height: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+}
